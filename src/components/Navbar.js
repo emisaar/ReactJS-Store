@@ -5,7 +5,7 @@ export default function Navbar() {
 	return(
         <nav>
             <img src={pageLogo} alt="Page Logo" className="nav-logo"/>
-            <h2>GameStore</h2>
+            <h2 className="nav-store">Game Store</h2>
         </nav>
     )
 }
